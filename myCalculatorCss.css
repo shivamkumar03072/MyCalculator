@@ -1,0 +1,95 @@
+.nabvar {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(82, 162, 231);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(31, 39, 39);
+}
+.list-item {
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+}
+.nabvar ul li a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.1rem;
+  font-size: 20px;
+}
+.nabvar ul li:hover {
+  background-color: rgb(32, 117, 190);
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.container {
+  margin-top: 50px;
+  text-align: center;
+  /* border: 2px solid black; */
+  padding: 10px;
+  /* background-color: rgb(77, 160, 228); */
+}
+input {
+  width: 80%;
+  padding: 10px;
+  text-align: right;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* border: 2px solid white; */
+}
+.all-btn {
+  margin-top: 5px;
+  /* border: 2px solid green; */
+}
+.number-btn {
+  width: 10%;
+  padding: 5px;
+  margin: 10px;
+  background-color: azure;
+  border-radius: 3px;
+}
+.equal {
+  width: 20%;
+}
+.copy {
+  width: 23%;
+}
+.paste {
+  width: 15%;
+}
+fieldset {
+  display: inline;
+  /* text-align: center; */
+  width: 50%;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: azure;
+  /* border: 5px solid black; */
+  box-shadow: 3px 3px 15px white;
+  /* background-color: tomato; */
+  /* animation: boder_animation; */
+  /* animation-timing-function: ease-in; */
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes boder_animation {
+  10% {
+    border: 5px solid green;
+  }
+  20% {
+    border: 5px solid white;
+  }
+}
+.result {
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* border: 1px solid black; */
+  width: 90%;
+  text-align: right;
+}
+.red {
+  color: rgb(117, 14, 14);
+}

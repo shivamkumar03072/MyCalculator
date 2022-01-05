@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="myCalculatorCss.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nabvar">
+      <ul>
+        <li class="list-item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="list-item hover">
+          <a href="">My Projects</a>
+
+          <ul class="dropdwon">
+            <li class="dropdwon-menu">
+              <a href="agecalculator.html" class="link">Age Calculator</a>
+            </li>
+            <li class="dropdwon-menu">
+              <a href="#l" class="link">Calculator</a>
+            </li>
+            <li class="dropdwon-menu">
+              <a href="temprature.html" class="link">TempRature Convertion</a>
+            </li>
+            <li class="dropdwon-menu">
+              <a href="#" class="link">Digital Clock</a>
+            </li>
+            <li class="dropdwon-menu">
+              <a href="#" class="link">Master Array Program</a>
+            </li>
+            <li class="dropdwon-menu">
+              <a href="#" class="link">Custom Theme</a>
+            </li>
+          </ul>
+        </li>
+        <li class="list-item">
+          <a href="">About us</a>
+        </li>
+        <li class="list-item">
+          <a href="">Contact us</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <fieldset>
+        <p class="result">
+          <label id="indigator_2"></label>
+          <span id="result"></span>
+          <label id="indigator"></label>
+        </p>
+        <input
+          type="text"
+          class="text"
+          placeholder="Enter your Input"
+          id="text"
+          value=""
+        />
+        <div class="all-btn">
+          <button class="number-btn" value="1" id="btn_1">1</button>
+          <button class="number-btn" value="2" id="btn_2">2</button>
+          <button class="number-btn" value="3" id="btn_3">3</button>
+          <button class="number-btn" value="clear" id="btn_clear">Clear</button>
+          <button class="number-btn" value="back" id="btn_back">Back</button>
+          <!-- <button class="number-btn" value="">1</button> -->
+          <br />
+          <button class="number-btn" value="4" id="btn_4">4</button>
+          <button class="number-btn" value="5" id="btn_5">5</button>
+          <button class="number-btn" value="6" id="btn_6">6</button>
+          <button class="number-btn" value="+" id="btn_plus">+</button>
+          <button class="number-btn" value="-" id="btn_minus">-</button>
+          <!-- <button class="number-btn" value="">1</button> -->
+          <br />
+          <button class="number-btn" value="7" id="btn_7">7</button>
+          <button class="number-btn" value="8" id="btn_8">8</button>
+          <button class="number-btn" value="9" id="btn_9">9</button>
+          <button class="number-btn" value="*" id="btn_multiplication">
+            *
+          </button>
+          <button class="number-btn" value="/" id="btn_division">/</button>
+          <!-- <button class="number-btn" value="">1</button> -->
+          <br />
+          <button class="number-btn" value="0" id="btn_0">0</button>
+          <button class="number-btn" value="." id="btn_point">.</button>
+          <button class="number-btn" value="1/x" id="btn_1_x">1/x</button>
+          <button class="number-btn" value="sqrt" id="btn_sqrt">X&half;</button>
+          <button class="number-btn" value="power2" id="btn_pwr">Square</button>
+          <br />
+
+          <button class="number-btn copy" value="=" id="btn_copy">
+            Copy Current Result
+          </button>
+          <button class="number-btn paste" value="=" id="btn_paste">
+            Paste Result
+          </button>
+          <button class="number-btn equal" value="=" id="btn_equal">=</button>
+        </div>
+      </fieldset>
+    </div>
+
+    <script src="myCalculator.js"></script>
+  </body>
+</html>

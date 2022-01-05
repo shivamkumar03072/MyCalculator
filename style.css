@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(216, 211, 194);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid green; */
+  background-color: rgba(10, 10, 17, 0.959);
+  /* position: fixed; */
+
+  width: 100%;
+}
+.listItems {
+  list-style: none;
+  display: inline-block;
+  /* border: 2px solid red; */
+  width: 200px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.1rem;
+
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  font-family: sans-serif;
+}
+.active {
+  background-color: green;
+  border-radius: 5px;
+}
+.listItems:hover {
+  background-color: green;
+  cursor: pointer;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .herder {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+  }
+}
+.herder {
+  /* border: 2px solid green; */
+  height: 100vh;
+  background-color: white;
+}
+.img {
+  border-radius: 40%;
+  height: 200px;
+}
+.herder {
+  margin: 20px;
+  display: flex;
+  border-radius: 5px;
+  /* border: 2px solid red; */
+  background-color: black;
+}
+.main {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(20, 11, 11);
+  /* border: 2px solid red; */
+  height: 100vh;
+}
+.name {
+  text-align: center;
+  margin: 5px;
+  color: white;
+  font-weight: 400;
+  font-family: sans-serif;
+  letter-spacing: 0.1rem;
+}
+.skills {
+  color: white;
+  letter-spacing: 0.1rem;
+}
+.progrss {
+  /* border: 2px solid black; */
+  background-color: black;
+}
+.progrss-inner {
+  border: 3px solid white;
+  width: 90%;
+}
+.html {
+  color: white;
+  letter-spacing: 0.1rem;
+}
+.css {
+  width: 70%;
+}
+.js {
+  width: 60%;
+}
+.c {
+  width: 70%;
+}
+.details {
+  /* border: 2px solid red; */
+  width: 90%;
+  color: white;
+  letter-spacing: 0.1rem;
+  padding: 20px;
+}
+.education {
+  background-color: rgb(19, 13, 13);
+  font-family: cursive;
+  padding: 10px;
+  border-radius: 5px;
+  /* height: 100%; */
+}
+.edu-inner {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(22, 19, 19);
+}
+.coures {
+  font-weight: 100;
+  font-size: 15px;
+}
+.dropdwon {
+  display: none;
+}
+.dropdwon-menu {
+  list-style: none;
+  padding: 10px;
+}
+.dropdwon-menu:hover {
+  background-color: green;
+}
+.hover:hover .dropdwon {
+  display: block;
+  position: absolute;
+  padding: 10px;
+  margin-top: 5px;
+  text-align: left;
+  background-color: black;
+
+  /* z-index: -1; */
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
